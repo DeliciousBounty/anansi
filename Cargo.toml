@@ -13,16 +13,15 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+reqwest = "0.11.10" 
 # Dependencies needed for development
 dev-dependencies = [
     "clippy",
-    "rustfmt",
-    reqwest = "0.11.10" 
+    "rustfmt"
 ]
 
 [build-dependencies]
 # Dependencies needed for the build process
 build-dependencies = [
-    "cargo-fmt",
-    reqwest = "0.11.10" 
+    "cargo-fmt"
 ]
