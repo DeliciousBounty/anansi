@@ -7,3 +7,20 @@ members = [
     "anansi-aux",
     "anansi",
 ]
+[package]
+name = "my-rust-project"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Dependencies needed for development
+dev-dependencies = [
+    "clippy",
+    "rustfmt"
+]
+
+[build-dependencies]
+# Dependencies needed for the build process
+build-dependencies = [
+    "cargo-fmt"
+]
